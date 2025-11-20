@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.contaner {
+    padding: 87px 33px;
+}
+
+.content {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(250, 196, 250);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.map {
+    width: 600px;
+    height: 500px;
+}
+
+.big {
+    width: 700px;
+    height: 601px;
+}
+
+p {
+    border-left: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Zen Kurenaido';
+}
+
+.tabelog {
+    width: 100px;
+    height: 80px;
+}
+
+.other_info {
+    margin: 0 auto;
+    margin-top: 65px;
+    background-color: rgb(250, 196, 250);
+    display: flex;
+    padding-top: 15px;
+}
+
+.item {
+    margin: 0 auto;
+}
+
+.item-cont {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}
+
+.info{
+    font-size: 32px;
+}

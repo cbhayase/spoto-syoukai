@@ -7,13 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
-
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="home">
-            <h1>地域のおすすめスポット</h1>
+            <a href="index.html"><h1>地域のおすすめスポット</h1></a>
         </div>
         <nav>
             <li><a href="spoto1.html">spot1</a></li> <!--スポット名を変えてください-->
@@ -21,14 +22,45 @@
             <li><a href="spoto3.html">spot3</a></li> <!--スポット名を変えてください-->
         </nav>
     </header>
-    
+
     <div class="contaner">
-        <p>ここに記述</p>
+        <div class="content">
+            <img src="img/morioka_,map.png" alt="" class="map">
+            <p class="info">盛岡市は岩手県内最大の都市でもあり、岩手県の政治、経済、交通の中心都市、人口は約28万人であり、岩手県の経済・文化をリードするポジションにあります。</p>
+        </div>
+        <div class="content">
+            <img src="img/Emblem_of_Morioka,_Iwate.svg.png" alt="" class="big">
+            <p class="info">盛岡市の市章は、菱(ひし)形二つを直角に交差させたものです。
+                この紋章は、藩政時代から伝わる陣笠やかごなどにも用いられています。菱形は南部家が甲斐源氏の一族であったことを表し、一方、折りづるを図案化したようにも見えることから、南部家の紋章である”つる”を象徴しているという説もあります。
+                市章としての制定時期ははっきりしませんが、明治39年（1906年）に定められた「市吏員用提灯其ノ他ノ徽章ノ件」という規定に、職員用のちょうちんなどにこの紋章を使うようにと定められています。市旗は昭和43年（1968年）11月に正式に定められました。
+            </p>
+        </div>
+
+        <div class="other_info">
+            <div class="item">
+                <a href="https://tabelog.com/iwate/A0301/A030101/3000020/" class="item-cont"><img
+                        src="img/seiroukaku.jpg" alt="" class="tabelog">
+                    <p>盛楼閣</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://tabelog.com/iwate/A0301/A030101/3000037/" class="item-cont"><img src="img/hakuryu.jpg"
+                        alt="" class="tabelog">
+                    <p>白龍</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://tabelog.com/iwate/A0301/A030101/3000037/" class="item-cont"><img
+                        src="img/pyonpyonsha.jpg" alt="" class="tabelog">
+                    <p>ぴょんぴょん舎</p>
+                </a>
+            </div>
+        </div>
     </div>
+
 
     <footer>
         <small>(C)2024 Morijyobi-studio.</small><br>
-        <a href="setumei.html" class="link">説明ページに遷移</a>
     </footer>
 
 
